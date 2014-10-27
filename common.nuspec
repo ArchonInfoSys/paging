@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>Archon.$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>$description$</description>
+		<projectUrl>https://github.com/ArchonInfoSys/paging</projectUrl>
+		<licenseUrl>https://github.com/ArchonInfoSys/paging/blob/master/LICENSE</licenseUrl>
+		<tags>paging page pager data queryable enumerable</tags>
+	</metadata>
+</package>
