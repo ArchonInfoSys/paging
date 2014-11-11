@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Newtonsoft.Json;
 
 namespace Paging
 {
@@ -43,10 +42,6 @@ namespace Paging
 			get { return Page < TotalPages; }
 		}
 
-		public Pagination()
-			: this(new T[0], 1, 1, 0) { }
-
-		[JsonConstructor]
 		public Pagination(IEnumerable<T> items, int page, int pageSize, int totalItems)
 		{
 			if (items == null)
