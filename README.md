@@ -16,4 +16,4 @@ Make sure to add `using Paging;` to the top of your files to get access to any o
 
 With any `IQueryable<T>`, just call `AsPagination` on it to get back a `Pagination<T>` model. Internally, the `AsPagination` extension method will call `Count` on the queryable to calculate the total count and execute the appropriate `Skip` and `Take` methods to properly page the data.
 
-The resulting `Pagination` model is optimized to serialize nicely into JSON.
+The resulting `Pagination` model is optimized to serialize nicely into JSON and properly deserialize from JSON.
